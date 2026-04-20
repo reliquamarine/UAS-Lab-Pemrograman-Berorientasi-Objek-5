@@ -18,7 +18,7 @@ public class Main {
 
             Kendaraan k = new Kendaraan(jenis);
             if (!jenis.equalsIgnoreCase("motor") &&
-                    !jenis.equalsIgnoreCase("mobil") &&a
+                    !jenis.equalsIgnoreCase("mobil") &&
                     !jenis.equalsIgnoreCase("truk")) {
 
                 System.out.println("Jenis kendaraan tidak valid!");
